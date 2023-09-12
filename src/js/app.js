@@ -1,9 +1,9 @@
-import "./article-item.js";
-import article from "./article.js";
+import "./article-list.js";
+import articles from "./article.js";
 
-const containerElement = document.querySelector(".container");
+//containerElement = document.querySelector(".container");
 
-const articleItemElement = document.createElement("article-item");
-articleItemElement.article = article;
+const articlesItemElement = document.createElement("article-list");
+articlesItemElement.articles = articles;
 
-containerElement.appendChild(articleItemElement);
+document.body.appendChild(articlesItemElement);
